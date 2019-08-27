@@ -1,0 +1,286 @@
+{
+    "algorithm": "GradientBoostingClassifier",
+    "algorithmType": "Classification",
+    "author": "1026",
+    "createdAt": 1557252392523,
+    "features": [
+        {
+            "name": "E_ACNT_SEC_OPEN_*_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY24_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY26_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY27_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY28_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY29_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY32_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY35_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY36_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY39_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY40_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY42_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY51_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY52_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY54_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY55_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY59_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY68_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY71_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY73_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY75_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY76_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY77_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY79_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY80_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY83_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_INT_LOGIN_WEB_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_INT_OTHER_PHYSICAL_OW",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "E_MENTION_LFE_HOME_PURCHASE_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XCT_EQ_BUY_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XCT_EQ_SELL_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XCT_MORTGAGE_NEW_OW",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XFER_FUNDS_OUT_LARGE_OW",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_ACNT_SEC_OPEN_*_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY24_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY27_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY28_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY39_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY55_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY68_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY73_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_BIRTHDAY77_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_INT_LOGIN_WEB_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_INT_OTHER_PHYSICAL_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_MENTION_LFE_HOME_PURCHASE_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XCT_EQ_BUY_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XCT_EQ_SELL_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XCT_MORTGAGE_NEW_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "E_XFER_FUNDS_OUT_LARGE_OM",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "MONTH",
+            "sample": 3.0,
+            "type": "float"
+        },
+        {
+            "name": "TOT_NB_OF_EVENTS_OW",
+            "sample": 2.0,
+            "type": "float"
+        },
+        {
+            "name": "TOT_NB_OF_EVENTS_OM",
+            "sample": 0.0,
+            "type": "float"
+        }
+    ],
+    "id": 1557252392523,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "TARGET",
+            "type": "int"
+        }
+    ],
+    "latestModelVersion": 3,
+    "learningType": "Supervised",
+    "name": "LFE_RELOCATION_Model",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python36",
+    "serialization": "joblib",
+    "source": "",
+    "type": "scikit-learn-0.20"
+}
